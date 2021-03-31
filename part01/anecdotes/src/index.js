@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom'
 const App = ({anecdotes}) => {
   const [selected, setSelected] = useState(0)
   const [votes, setVotes] = useState(new Array(6).fill(0))
-  const [hasMaxVoted, setHasMaxVoted] = useState(false)
+  const [voted, setVoted] = useState(false)
 
 
   const random =() => {
@@ -15,7 +15,7 @@ const App = ({anecdotes}) => {
     const copy = [...votes] 
     copy[selected] += 1
     setVotes(copy)
-    setHasMaxVoted(true)
+    setVoted(true)
   }
 
   const Heading = ({text}) => <h1>{text}</h1>
@@ -38,8 +38,8 @@ const App = ({anecdotes}) => {
     </div>
     <div>
     <Heading text="Anecdote with most votes" />
-     {hasMaxVoted && anecdotes[maxVoted()]}
-     {!hasMaxVoted && "Votes please"}
+     {voted && anecdotes[maxVoted()]}
+     {!voted && "Votes please!"}
     </div>
     
   </> )
