@@ -9,7 +9,7 @@ My solutions to Full Stack Open 2021 course from the University of Helsinki.
 * [Part 1: Introduction to React](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part01)
 * [Part 2: Communicating with server](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part02)
 * [Part 3: Programming a server with NodeJS and Express](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part03)
-* [Part 4: Testing Express servers, user administration](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part05)
+* [Part 4: Testing Express servers, user administration](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part04)
 * [Part 5: Testing React apps](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part05/bloglist-frontend)
 * [Part 6: State management with Redux](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part06)
 * [Part 7: React router, custom hooks, styling app with CSS and webpack](https://github.com/SudoShwetanshu/FullStackOpen_2020/tree/master/part07)
